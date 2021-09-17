@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form>
+			<h2>학과 선택</h2>
+			<select name="class" id="class">
+				<optgroup label="공과대학">
+					<option value="컴공">컴퓨터공학과</option>
+					<option value="미콘" selected>미디어기술콘텐츠학과</option>
+					<option value="정통">정보통신학과</option>
+					<option value="화공">화학공학과</option>
+					<option value="전공">전기공학과</option>
+				</optgroup>
+				<optgroup label="인문대학">
+					<option value="철학">철학과</option>
+					<option value="심리">심리학과</option>
+					<option value="국문">국문과</option>
+					<option value="영언">영어영문과</option>
+				</optgroup>
+			</select>
+
+			<h2>수강과목 선택</h2>
+			<input type="text" id="insert" list="subject" />
+			<datalist id="subject">
+				<option value="grammer" label="문법"></option>
+				<option value="speaking" label="회화"></option>
+				<option value="listening" label="듣기"></option>
+			</datalist>
+
+			<h2>글 내용</h2>
+			<textarea cols="50" rows="5" name="con">글을 남겨주세요</textarea>
+		</form>
+	</body>
+</html>
