@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			/*
+      selector {
+        property
+      }
+      */
+			* {
+				color: green;
+			}
+			li {
+				color: blue;
+			}
+			li#special {
+				color: pink;
+			}
+			.red {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				padding: 20px;
+				margin: 20px;
+				border-top-style: solid;
+				border-bottom-style: solid;
+				border-color: black;
+				border-radius: 25px;
+				border-width: 2px;
+			}
+			button:hover {
+				color: blueviolet;
+				background-color: beige;
+			}
+			a[href] {
+				color: black;
+			}
+			a[href^="google"] {
+				color: red;
+			}
+			a:link {
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+				color: gray;
+			}
+		</style>
+	</head>
+	<body>
+		<ol>
+			<li id="special">First</li>
+			<li>Second</li>
+		</ol>
+		<button>버튼1</button>
+		<button>버튼2</button>
+		<div class="red">정준영</div>
+		<div class="blue">가톨릭대</div>
+		<a href="naver.com">네이버</a>
+		<a href="google.com">구글</a>
+		<a>empty</a>
+	</body>
+</html>
